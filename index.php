@@ -23,7 +23,7 @@ if (isset($_SESSION['user'])) {
     <link rel="stylesheet" href="assets/css/styles.css?<?= time() ?>">
 </head>
 <body>
-<nav class="navbar bg-body-tertiary">
+<nav class="navbar bg-body-tertiary fixed-top">
     <div class="container">
         <a class="navbar-brand"><strong>MyShortener.link</strong></a>
         <form class="d-flex align-items-center">
