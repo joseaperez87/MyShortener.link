@@ -1,0 +1,60 @@
+body{
+    font-family: "Nunito";
+}
+.shortener-header {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#confirm-code {
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.shortener-header::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 56px;
+    width: 100%;
+    height: 500px;
+    opacity: .6;
+    background: url("../images/bg-image.jpg") center;
+    background-size: cover;
+}
+
+.shortener-input {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+#shorten-button{
+    padding: 1px;
+}
+
+.code-valid {
+    display: none;
+}
+
+.code-invalid {
+    display: none;
+}
+
+.table-col{
+    justify-content: space-between;
+}
+
+.copy-link{
+    color: #aaa;
+}
+.copy-link:hover{
+    opacity: .6;
+    cursor: pointer;
+}
+.registration-success {
+    display: none;
+}
